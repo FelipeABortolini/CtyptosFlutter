@@ -1,0 +1,16 @@
+{
+    "titlePortfolio": "Cripto",
+    "totalCoinValue" : "Valor total de moedas",
+    "bottomBarPortfolio": "Portfólio",
+    "bottomBarMovements": "Movimentações",
+    "titleMovements": "Movimentações",
+    "titleCryptoDetails": "Detalhes",
+    "convertCurrency": "Converter moeda",
+    "currentPrice": "Preço atual",
+    "price": "Preço",
+    "variation24": "Variação 24H",
+    "variation": "Variação",
+    "amount": "Quantidade",
+    "value": "Valor",
+    "conversion": "Converter"
+}
