@@ -1,20 +1,21 @@
 import 'package:decimal/decimal.dart';
 
 class CryptoModel {
+  String id;
   String name;
-  String initials;
-  String icon;
+  String symbol;
+  String image;
   Decimal price;
-  Decimal value = Decimal.parse('0');
-  double amount;
-  List<List> historyPrice;
+  // List<List> historyPrice;
+  double variation;
   
   CryptoModel({
+    required this.id,
     required this.name,
-    required this.initials,
-    required this.icon,
+    required this.symbol,
+    required this.image,
     required this.price,
-    required this.amount,
-    required this.historyPrice,
+    // required this.historyPrice,
+    required this.variation,
   });
 }

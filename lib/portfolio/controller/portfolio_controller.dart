@@ -4,21 +4,21 @@ import '../../shared/models/crypto_model.dart';
 import '../usecase/portfolio_usecase.dart';
 
 class PortfolioController {
-  final portfolioUsecase = PortfolioUseCase();
+  // final portfolioUsecase = PortfolioUseCase();
 
-  List<CryptoModel> getCryptosList() {
-    return portfolioUsecase.getCryptosListUseCase();
-  }
+  // List<CryptoModel> getCryptosList() {
+  //   return portfolioUsecase.getCryptosListUseCase();
+  // }
 
-  Decimal getCurrentPrice(CryptoModel crypto){
-    return portfolioUsecase.getCurrentPrice(crypto);
-  }
+  // Decimal getCurrentPrice(CryptoModel crypto){
+  //   return portfolioUsecase.getCurrentPrice(crypto);
+  // }
 
-  double calculateBalancePortfolio(List<CryptoModel> cryptos) {
-    return double.parse(portfolioUsecase.calculateBalancePortfolioUsecase(cryptos).toString());
-  }
+  // double calculateBalancePortfolio(List<CryptoModel> cryptos) {
+  //   return double.parse(portfolioUsecase.calculateBalancePortfolioUsecase(cryptos).toString());
+  // }
 
-  Decimal calculateCryptoValue(Decimal priceCrypto, double amountCrypto) {
-    return portfolioUsecase.calculateCryptoValueUsecase(priceCrypto, amountCrypto);
-  }
+  // Decimal calculateCryptoValue(Decimal priceCrypto, double amountCrypto) {
+  //   return portfolioUsecase.calculateCryptoValueUsecase(priceCrypto, amountCrypto);
+  // }
 }

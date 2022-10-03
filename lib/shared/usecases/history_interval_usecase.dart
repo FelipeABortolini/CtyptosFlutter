@@ -1,6 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 
-import '../repos/history_interval_repository.dart';
+import '../repositories/history_interval_repository.dart';
 
 class HistoryIntervalUseCase {
   final HistoryIntervalRepository historyIntervalRepository = HistoryIntervalRepository();

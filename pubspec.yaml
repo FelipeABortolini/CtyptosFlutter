@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.0 <3.0.0'
+  sdk: '>=2.17.6 <3.0.0'
 
 dependencies:
   flutter:
@@ -21,7 +21,11 @@ dependencies:
   google_fonts: ^3.0.1
   hooks_riverpod: ^1.0.4
   fl_chart: ^0.55.1
-  page_transition: ^2.0.9
+  dio: ^4.0.6
+  json_serializable: ^6.4.0
+  json_annotation: ^4.7.0
+  build_runner: ^2.2.1
+  shimmer: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -36,30 +40,3 @@ flutter:
   
   assets:
     - assets/images/
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
